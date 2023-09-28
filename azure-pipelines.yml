@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: Export Portal Configuration@2
+  task: Export Portal Configuration@2
   inputs:
     D365URL: 'collationai.crm.dynamics.com'
     PortalWebsiteid: '172f1912-3d21-ee11-9cbe-00224828938f'
