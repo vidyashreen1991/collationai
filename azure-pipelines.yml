@@ -1,4 +1,12 @@
 # Starter pipeline
+- task: Export Portal Configuration@2
+  inputs:
+    D365URL: 'collationai.crm.dynamics.com'
+    PortalWebsiteid: '172f1912-3d21-ee11-9cbe-00224828938f'
+    ApplicationId: '06fb2d73-826c-44c2-84d9-d7b6180091c0'
+    ClientSecret: 'sfh8Q~wxdMGZQBI9RuYaOdk-sq5mdw1fmPDW-aLq'
+    TenantId: '8f5f3e84-01ed-4ae0-b5b6-fc59d5b249b3'
+    ExportPortalData: 'All'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
